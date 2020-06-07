@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">	
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+	<title>Hotel Menu</title>
+	<link rel="stylesheet"  href="styles_tg.css">
+	<style>
+
+		*{
+  		box-sizing: border-box;
+        margin: 0;
+  		padding: 0;
+		}
+		p{
+            float: right;
+            color: white;
+            border: 1px solid white;
+            padding: 2px;
+        }
+		
+		
+		#C{
+			background-color: #DC143C;
+            font-family: "Times New Roman", Times , serif ;
+            text-align: left;
+            font-style: italic;
+            color: gold;
+            width: 95%;
+            height: 150px;
+		}
+		#B{
+     		background-color: purple;
+            font-family: "Times New Roman", Times , serif ;
+            text-align: left;
+            font-style: italic;
+            color: pink;
+             padding: 10px 20px 10px 20px; 
+            width: 95%;
+            height: 150px;
+     	}
+     	#S
+     	{
+     		background-color: #008B8B;
+            font-family: "Times New Roman", Times , serif ;
+            text-align: left;
+            font-style: italic;
+            color: white;
+             padding: 10px 20px 10px 20px; 
+           width: 95%;
+            height: 150px;
+     	}
+        
+		.row{
+			width: 100%;
+		}
+
+		@media(min-width: 992px)
+        {
+            .col-lg-4{
+                float: left;
+                border: 1px solid black;
+                width: 33.33%;
+            }
+        }
+
+
+        @media (min-width: 768px) and (max-width: 991px)
+        {
+            .col-md-6, .col-md-12{
+                float: left;
+                border: 1px solid black;
+                
+            }
+            .col-md-6{
+                width: 50%;
+            }
+            .col-md-12{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 767px)
+        {
+            .col-12{
+                float: left;
+                border: 1px solid black;
+                width: 100%;
+            }
+        }
+	</style>
+</head>
+<body>
+
+<h1>MENU</h1>
+
+<section class="row">
+
+	<div class="col-lg-4 col-md-6 col-12">
+		<section id="C">
+		<p >Chicken</p>
+			<ul >
+				<li>Amritsari Chicken Masala</li>
+				<li>Murg Malaiwala</li>
+				<li>Kerala Chicken Roast</li>
+				<li>Spicy Tangy Kadhai Chicken</li>
+				<li>Butter Chicken</li>
+				<li>Chicken Dum Birayni</li>
+			</ul>
+			</section>
+		</div>
+	<div class="col-lg-4 col-md-6 col-12">
+		<section id="B">
+		<p>Beef</p>
+			<ul >
+				<li>Best Beef Burger</li>
+				<li>quick Roasted Beef with rosted potatoes and carrots</li>
+				<li>Beef & Barley Soup</li>
+				<li>Orange & Ginger Beef</li>
+				<li>Beef & Cheese Manicotti</li>
+				<li>Beef Stir-Fry with Chowmein Noodles</li>
+			</ul>
+			</section>
+	</div>
+	<div class="col-lg-4 col-md-12 col-12">
+		<section id="S">
+		<p>Sushi</p>
+			<ul >
+				<li>Aromatic Duck Roll</li>
+				<li>Avocado Maki</li>
+				<li>Coriander Seared Tuna Sushi</li>
+				<li>Dragon Roll</li>
+				<li>California Cruncy Roll</li>
+			    <li>Dynamite Roll</li>
+			</ul>
+			</section>
+	</div>
+
+</section>
+</body>
+</html>
