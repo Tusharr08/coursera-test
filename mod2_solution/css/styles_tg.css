@@ -4,4 +4,91 @@
      		text-align: center;
      		color: #191970
 		}
-		
+        div{
+            position: relative;
+            
+           
+        }
+		h2{
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 5px 10px 5px 5px;
+           
+        }
+        
+        #C{
+            background-color: #DC143C;
+            font-family: "Times New Roman", Times , serif ;
+            text-align: left;
+            font-style: italic;
+            color: gold;
+            width: 100%;
+            height: 175px;
+            padding: 30px 20px 10px 20px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+        #B{
+            background-color: purple;
+            font-family: "Times New Roman", Times , serif ;
+            text-align: left;
+            font-style: italic;
+            color: pink;
+           padding: 30px 20px 10px 20px; 
+            width: 100%;
+            height: 175px;
+            margin: 5px;
+            border: 1px solid black;
+        }
+        #S
+        {
+            background-color: #008B8B;
+            font-family: "Times New Roman", Times , serif ;
+            text-align: left;
+            font-style: italic;
+            color: white;
+             padding: 30px 20px 10px 20px; 
+           width: 100%;
+            height: 175px;
+            border: 1px solid black;
+            margin: 5px;
+        }
+        
+        .row{
+            width: 100%;
+        }
+
+        @media(min-width: 992px)
+        {
+            .col-lg-4{
+                float: left;
+                 
+                width: 33.33%;
+            }
+        }
+
+
+        @media (min-width: 768px) and (max-width: 991px)
+        {
+            .col-md-6, .col-md-12{
+                float: left;
+                
+                
+            }
+            .col-md-6{
+                width: 50%;
+            }
+            .col-md-12{
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 767px)
+        {
+            .col-12{
+                float: left;
+                 
+                width: 100%;
+            }
+        }
