@@ -138,7 +138,15 @@ h3{
 	h3{
 		font-size: 5vw;
 	}
-	
+	#c-icon{
+	background: url('../images/chicken.png') no-repeat;
+	}
+	#b-icon{
+		background: url('../images/beef.png') no-repeat;
+	}
+	#s-icon{
+		background: url('../images/sushi.png') no-repeat;
+	}
 	#collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
     margin-right: 5px;
